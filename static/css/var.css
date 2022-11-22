@@ -1,0 +1,29 @@
+#iFirst .visual-1 {background-image: url("../image/nagomi_kv.jpg");}
+#iFirst .visual-2 {background-image: url("../image/rinwa.webp");}
+#iFirst .visual-3 {background-image: url("../image/scene_1.webp");}
+
+#foot-philosophy .l-bgimg {
+    height: 50vw;
+    background-position: bottom center;
+    background-image: url("../image/philosophy_scene.webp");}
+#foot-philosophy .wrapper .sp.l-bgimg {
+    width: 100%;
+    margin-left: -1px;
+    background-image: url("../image/scene_1.webp");
+}
+
+#products-visual .l-bgimg {
+    height: 50vh;
+    background-image: url("../image/scene_1.webp");
+}
+
+#craftsmanship .l-bgimg {
+    min-height: 50vh;
+    background-image: url("../image/craftsmanship_sp.webp");
+}
+
+@media screen and (min-width: 720px) {
+    #foot-philosophy .l-bgimg {height: 33vw;}
+    #products-visual .l-bgimg {height: 55vh;}
+    #craftsmanship .l-bgimg {background-image: url("../image/craftsmanship_pc.webp");}
+}

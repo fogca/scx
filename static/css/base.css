@@ -1,0 +1,162 @@
+/*
+***
+All CSS are written with a specific rules based on SMACSS 
+that are extremely scalable and reusable - CSS modular architecture.
+
+***
+Base - 
+This phase define the default style by specifying 
+the elements without using classNames and idNames.
+***
+
+Developed by Takumi Isobe - Front-end developer
+***
+*/
+
+@charset "UTF-8";
+
+:root {
+    --backgroundColor: #F0F0F0;
+    --textColor: #3e322c;
+    --textColor: #453a34;
+    --darkColor: #34322F;
+    --bodyColor: #4B3E29;
+
+    --padding: 6.5vw;
+    --riceColor: #7E8484;
+    --pX: 8px;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {font-size: 62.5%;}
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--backgroundColor);
+}
+body {min-height: -webkit-fill-available;}
+
+div, h1, h2, h3, h4, h5, h6, p, a, span, button, input {
+    font-family: goldenbook, 'Shippori Mincho',
+    '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro', serif;
+    font-weight: 500;
+    color: var(--textColor);
+    font-display: swap;
+    font-feature-settings: "palt";
+    letter-spacing: .2em;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.8;
+}
+
+button, input {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.regular {font-weight: 400;} 
+.bold {font-weight: 600;}
+.extrabold {font-weight: 700;}
+
+:lang(en) {
+    font-weight: 550;
+    letter-spacing: .1em;
+    line-height: 1.7;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+/*svg, svg path, svg g {fill: var(--textColor);}*/
+
+.h0 {font-size: 5.6rem;}
+h1, .h1 {font-size: 2.4rem;}
+.h1a {font-size: 2.2rem;}
+h2, .h2 {font-size: 2.0rem;}
+h3, .h3 {font-size: 1.8rem;}
+h4, .h4 {font-size: 1.6rem;}
+h5, .h5 {font-size: 1.4rem;}
+h6, .h6 {font-size: 1.2rem;}
+.h7 {font-size: 1rem;}
+
+p, .p {
+    font-family: dnp-shuei-gothic-gin-std;
+    font-weight: 400; /*Light*/
+    font-weight: 500; /*Regular*/
+    line-height: 2.0;
+    font-size: 1.25rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+main {padding: 0 var(--padding);}
+
+.sans {
+    font-family: dnp-shuei-gothic-gin-std;
+    font-weight: 500;
+    letter-spacing: .08em;
+}
+li {text-decoration: none;}
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .75s ease-in-out;
+}
+a:hover {opacity: .85;}
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+}
+ul li {text-decoration: none;list-style: none;}
+main {margin: auto;}
+
+.white, .white * {color: white;}
+.center {text-align: center;}
+.sp {display: block;}
+.pc {display: none;}
+  
+
+
+@media screen and (min-width: 720px) {
+    html {font-size: 55%;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+    html {font-size: 50%;}
+}
+  
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+}
+
+
+@media screen and (min-width: 1280px) {
+    html {font-size: 62.5%;}
+    .h0 {font-size: 5.6rem;}
+    h1, .h1 {font-size: 3.2rem;}
+    h2, .h2 {font-size: 2.6rem;}
+    h3, .h3 {font-size: 2.2rem;}
+    h4, .h4 {font-size: 1.8rem;}
+    h5, .h5 {font-size: 1.5rem;}
+    h6, .h6 {font-size: 1.2rem;}
+    .h7 {font-size: 1.0rem;}
+p, .p {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.sp {display: none;}
+.pc {display: block;}
+
+}
+
+
+
+

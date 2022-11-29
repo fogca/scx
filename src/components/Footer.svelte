@@ -27,17 +27,17 @@ import Instagram from './Instagram.svelte';
             </div>
         </div>
         <div class="restaurant">
-            <a href="/pages/inquiry" class="l-button w-line h4">飲食店・酒販店様からのお問い合わせ</a> 
+            <a href="/" class="l-button w-line h4">飲食店・酒販店様からのお問い合わせ</a> 
         </div>
         <ul>
-            <li><a href="/pages/inquiry">お問い合わせ</a></li>
-            <li><a href="/pages/faq">よくある質問</a></li>
-            <li><a href="/pages/mailmagazine">メールマガジン</a></li>
-            <li><a href="/">リーガル</a></li><li><a href="/pages/company">会社概要</a></li>
-            <li><a href="/policies/terms-of-service">利用規約</a></li>
-            <li><a href="/policies/refund-policy">キャンセル・返金について</a></li>
-            <li><a href="/pages/privacy-policy">プライバシーポリシー</a></li>
-            <li><a href="/pages/law">特定商取引法に基づく表記</a></li>
+            <li><a href="/">お問い合わせ</a></li>
+            <li><a href="/">よくある質問</a></li>
+            <li><a href="/">メールマガジン</a></li>
+            <li><a href="/">リーガル</a></li><li><a href="">会社概要</a></li>
+            <li><a href="/">利用規約</a></li>
+            <li><a href="/">キャンセル・返金について</a></li>
+            <li><a href="/">プライバシーポリシー</a></li>
+            <li><a href="/">特定商取引法に基づく表記</a></li>
         </ul>
         <div class="bottom">
             <div class="h6">20歳未満の方の飲酒は<br class="sp">法律で禁止されています</div>

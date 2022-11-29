@@ -14,7 +14,7 @@
 
 <header>
     <div class="menu-sp">
-        <a href="/pages/transform-shochu">
+        <a href="/">
             <span lang="en" class="h1 uppercase">ABOUT</span>
             <span class="h6">私たちが目指す焼酎の世界</span>
         </a>
@@ -24,14 +24,14 @@
             <span class="h6">焼酎の未来を切り開くプロダクト</span>
         </a>
 
-        <a href="/blogs/journal">
+        <a href="/">
             <span lang="en" class="h1 uppercase">JOURNAL</span>
             <span class="h6">焼酎の楽しみ方をご紹介</span>
         </a>
         <div class="container">
-            <a href="/blogs/news"><span lang="en" class="h3 uppercase">NEWS</span></a>
-            <a href="/pages/inquiry"><span lang="en" class="h3 uppercase">CONTACT</span></a>
-            <a href="/pages/mailmagazine"><span lang="en" class="h3 uppercase">MAIL MAGAZINE</span></a>
+            <a href="/"><span lang="en" class="h3 uppercase">NEWS</span></a>
+            <a href="/"><span lang="en" class="h3 uppercase">CONTACT</span></a>
+            <a href="/"><span lang="en" class="h3 uppercase">MAIL MAGAZINE</span></a>
         </div>
         
         <div class="sns">
@@ -55,10 +55,10 @@
             </div>
             <div class="menu"> 
                 <ul class="pc"> 
-                    <li><a href="/pages/transform-shochu" lang="en">About</a></li>
+                    <li><a href="/" lang="en">About</a></li>
                     <li><a href="/products" lang="en">Products</a></li>
-                    <li><a href="/blogs/journal" lang="en">Journal</a></li>
-                    <li><a href="/blogs/news" lang="en">News</a></li>
+                    <li><a href="/" lang="en">Journal</a></li>
+                    <li><a href="/" lang="en">News</a></li>
                 </ul> 
                 <div class="sp">
                     <button type="button" class="menu-btn">
@@ -72,10 +72,10 @@
                 </div>
             </div>
             <div class="shop"> 
-                <a href="/account">
+                <a href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><path id="Path_131" data-name="Path 131" d="M12.26,9.365a5.262,5.262,0,1,0-6.517,0A8.264,8.264,0,0,0,0,17.222V18H1.546v-.778a6.706,6.706,0,0,1,6.7-6.7h.735l.02,0H9l.02,0h.724a6.706,6.706,0,0,1,6.7,6.7V18H18v-.778a8.262,8.262,0,0,0-5.74-7.857M9,8.97A3.708,3.708,0,1,1,9,1.554H9A3.708,3.708,0,0,1,9,8.97" fill="#fff"/></svg>                          
                 </a>     
-                <a href="/cart">
+                <a href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="17.501" height="18" viewBox="0 0 17.501 18"><path id="Path_130" data-name="Path 130" d="M17.491,12.223,16.71,0H.778L.012,12.209h0a5.329,5.329,0,0,0,4.777,5.773A3.3,3.3,0,0,0,5.14,18h7.221v0A5.29,5.29,0,0,0,17.5,12.582c0-.119,0-.239-.01-.358M12.169,1.942a3.52,3.52,0,0,1-3.417,3.6h0a3.514,3.514,0,0,1-3.417-3.6V1.554h6.835ZM5.29,5.593A4.735,4.735,0,0,0,8.751,7.1a5.037,5.037,0,0,0,4.894-5.158V1.558h1.7l.689,10.761c.008.09.008.179.008.267a3.769,3.769,0,0,1-3.667,3.856H5.142c-.081,0-.165,0-.248-.008a3.8,3.8,0,0,1-3.409-4.117L2.163,1.554H3.855v.391A5.263,5.263,0,0,0,5.29,5.593" transform="translate(0)" fill="#fff"/></svg>                          
                 </a> 
             </div>

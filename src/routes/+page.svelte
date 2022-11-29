@@ -9,7 +9,7 @@
         <div class="wrapper">
             <div class="visuals swiper">
                 <div class="visual visual-1"></div>
-                <a href="/collections/products" class="button">商品をみる</a>
+                <a href="/products" class="button">商品をみる</a>
             </div>
             <div class="info white">
                 <h1 class="h1">日々に豊かさを<br>添える焼酎</h1>
@@ -21,7 +21,7 @@
         <div class="l-section-head" lang="en">News</div>
         <h1 class="l-section-head">イベント情報やお知らせ</h1>
         <div class="wrapper">
-            <a href="/words/effor-221619/" data-sveltekit-prefetch="" class="l-word container">
+            <a href="/" data-sveltekit-prefetch="" class="l-word container">
                 <div class="left">
                     <div class="l-line"></div> 
                     <div class="h6 date" lang="en">8th October 2022</div> 
@@ -31,7 +31,7 @@
                     <Arrow />
                 </div>
             </a>
-            <a href="/words/effor-221619/" data-sveltekit-prefetch="" class="l-word container">
+            <a href="/" data-sveltekit-prefetch="" class="l-word container">
                 <div class="left">
                     <div class="l-line"></div> 
                     <div class="h6 date" lang="en">8th October 2022</div> 
@@ -41,7 +41,7 @@
                     <Arrow />
                 </div>
             </a>
-            <a href="/words/effor-221619/" data-sveltekit-prefetch="" class="l-word container">
+            <a href="/" data-sveltekit-prefetch="" class="l-word container">
                 <div class="left">
                     <div class="l-line"></div> 
                     <div class="h6 date" lang="en">8th October 2022</div> 

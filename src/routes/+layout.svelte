@@ -31,11 +31,6 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
   </script>
 </svelte:head>
   
-  <div 
-    class:Index={currentRoute === "/"} 
-    class:About={currentRoute === "/about"} 
-    class:Contact={currentRoute === "/contact"}
-  >
 
   <!-- 2. Pass the `url` prop to the `PageTransition` component, causing it to re-render when the page changes -->
   <PageTransition pathname={data.pathname}>
@@ -44,5 +39,5 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
     <Footer></Footer>
   </PageTransition>
   
-  </div>
+
   

@@ -290,6 +290,7 @@
 #iCraftman .wrapper {margin-top: 4rem;}
 #iCraftman .l-overlay img {
     aspect-ratio: 5/3;
+    height: 60vw;
     filter: brightness(.8) contrast(1);
 }
 #iCraftman .l-overlay h3 {opacity: .75;}
@@ -300,10 +301,12 @@
 #iCocktail .container img {
     width: calc(100vw - var(--padding));
     width: 100%;
+    height: 30vw;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
     aspect-ratio: 7/5;
 }
+
 #iCocktail .container h2 {
     margin-top: 1rem;
     font-size: 2.2rem;
@@ -381,6 +384,7 @@
     #iCraftman .wrapper .container {width: 33.333%;}
     #iCraftman .wrapper .container img {
         width: 100%;
+        height: 33.3vw;
         aspect-ratio: 1;
         margin-left: 0;
     }
@@ -388,7 +392,10 @@
 
     #iCocktail .wrapper {margin-top: 6rem;}
     #iCocktail .l-grid-3 {gap: calc(10rem / 3);}
-    #iCocktail .container img {aspect-ratio: 5/4;}
+    #iCocktail .container img {
+        height: calc((100vw - (var(--pcPadding) * 2)) / 3 / 5 * 4);
+        aspect-ratio: 5/4;
+    }
 
     
 

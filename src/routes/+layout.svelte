@@ -18,6 +18,9 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
   <link rel="stylesheet" href="../css/main.css?ver=1.0.1">
   <link rel="stylesheet" href="../css/layout.css?ver=1.0.2">
   <link rel="stylesheet" href="../css/var.css?ver=1.0.2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/frp6udl.css">
   <script>
     (function(d) {

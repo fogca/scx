@@ -14,11 +14,11 @@ Developed by Takumi Isobe - Front-end developer
 */
 
 div.l-section-head {
-	font-size: 1.4rem;
+	font-size: 1.25rem;
 	opacity: .5;
 }
 h1.l-section-head {
-	font-size: 2.0rem;
+	font-size: 2.2rem;
 	margin-left: -2px;
 	letter-spacing: .15em;
 }
@@ -29,7 +29,7 @@ h1.l-section-head {
 }
 .l-big-card {margin-top: .5rem;}
 .l-big-card .info, .l-big-card .shop, .l-big-card img,
-.l-overlay .box1, .l-overlay .box2, .l-overlay img {grid-area: 1/2;}
+.l-overlay .box1, .l-overlay .box2, .l-overlay img, .l-overlay .cat {grid-area: 1/2;}
 .l-big-card img, .l-overlay img  {
     width: 100vw;
     margin-left: calc(-1 * var(--padding));
@@ -61,15 +61,25 @@ h1.l-section-head {
 }
 .l-big-card *, .l-overlay * {color: var(--backgroundColor);}
 
-.l-small-card {width: calc((100vw - var(--padding) - 2.5px) / 2);}
+.l-small-card {
+    width: calc((100vw - var(--padding) - 5px) / 2);
+    margin-bottom: 6rem;
+}
 .l-small-card img {aspect-ratio: 4/5;}
 .l-small-card .info {width: 92.5%;}
-.l-small-card .info h3 {margin: 1.2rem 0 .3rem;}
-.l-small-card .info h5 {margin-top: 1.6rem;}
-.l-small-card .info .sans {
-    font-size: 1.1rem;
-    opacity: .75;
+.l-small-card .info h3 {margin: 1.8rem 0 .3rem;}
+.l-small-card .info h5 {
+    margin-top: 1.6rem;
+    margin-left: 5px;
 }
+.l-small-card .info .sans {
+    font-size: 1.0rem;
+    opacity: .5;
+    margin-left: 2px;
+}
+.cat {position: absolute;}
+#iProduct a:nth-of-type(1) .cat,
+#iProduct a:nth-of-type(3) .cat {border-top-left-radius: 1rem;}
 
 .l-small-container .l-small-card:nth-of-type(1) img,
 .l-small-container .l-small-card:nth-of-type(3) img {border-top-left-radius: 12px;}
@@ -81,6 +91,25 @@ h1.l-section-head {
     justify-content: space-between;
     align-items: flex-start;
     width: calc(100vw - var(--padding));
+}
+
+.l-small-card .container {position: relative;}
+.limited {
+    font-size: 1.3rem;
+    letter-spacing: .1em;
+    width: fit-content;
+    padding: .8rem 2.2rem .5rem;
+    border-radius: 30px;
+    text-align: center;
+    margin: -5rem auto .75rem;
+    color: var(--backgroundColor);
+    background-color: var(--bodyColor);
+    color: var(--bodyColor);
+    background-color: var(--backgroundColor);
+    position: absolute;
+    left: 1rem;
+    top: auto;
+    bottom: 1rem;
 }
 
 
@@ -103,13 +132,108 @@ h1.l-section-head {
 	margin-left: -1rem;
     margin-bottom: 2.2rem;
 }
-.l-word .left {width: 75%;}
+.l-word .left {width: 80%;}
 .l-word .right {
 	display: flex;
     align-items: flex-end;
 	margin-bottom: -0.5rem;
 }
-.l-word .date {margin-bottom: .8rem;}
+.l-word .date {margin-bottom: .5rem;}
+
+.button {
+    width: fit-content;
+    letter-spacing: .2em;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 3.6rem;
+    margin-left: -6.5px;
+    color: var(--darkColor);
+    border-radius: 50px;
+    background: var(--backgroundColor);
+    position: absolute;
+    z-index: 998;
+    top: auto;
+    bottom: 8rem;
+    left: 0;
+    opacity: 1;
+}
+
+.cat {
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    background-color: var(--bodyColor);
+    padding: 0.6rem 1rem 0.4rem;
+}
+
+
+
+@media screen and (min-width: 720px) {
+
+    .l-word {padding: 0 1rem 3rem;}
+    .l-word .l-line {
+        margin-left: -.5rem;
+        margin-bottom: 3rem;
+    }
+    div.l-section-head {font-size: 1.8rem;}
+    h1.l-section-head {
+        font-size: 2.6rem;
+        margin-left: -3px;
+    }
+
+    .l-big-card img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .l-small-container {width: 100%;}
+    .l-small-card {
+        width: calc(33.3% - 2.5rem);
+        margin-bottom: 8rem;
+    }
+    .l-small-card img {aspect-ratio: 3/2;}
+    .l-small-container .l-small-card img {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .cat {border-top-left-radius: 1rem;}
+
+    .l-small-card .info .sans {
+        font-size: 1.3rem;
+        margin-left: .5px;
+        margin-bottom: 2.5rem;
+    }
+    .l-small-card .info h5 {margin-left: 3px;}
+
+    .l-big-card img, .l-overlay img {margin-left: calc(-1 * var(--pcPadding));}
+    .l-overlay .box1, .l-overlay .box2 {padding-left: 5rem;}
+    .l-overlay .box2 {padding-bottom: 5rem;}
+
+    .limited {
+        left: auto;
+        right: 2rem;
+        bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .l-grid-2 {
@@ -173,17 +297,7 @@ h1.l-section-head {
 }
 .l-cards .l-card .info {margin-top: 2.5rem;}
 .l-cards .l-card .info * {text-align: center;}
-.l-cards .l-card .info .limited {
-    font-size: 1.3rem;
-    letter-spacing: .1em;
-    width: fit-content;
-    padding: .5rem 2.2rem .25rem;
-    border-radius: 30px;
-    text-align: center;
-    margin: -.5rem auto .75rem;
-    color: var(--backgroundColor);
-    background-color: var(--bodyColor);
-}
+
 
 .l-cards .l-card .info h4 {
     font-size: 1.2rem;
@@ -452,8 +566,7 @@ footer .bottom .sns a {margin-left: 1.5rem;}
 
 
 @media screen and (min-width: 720px) {
-    
-main {padding: 0 9vw;}
+
 
 .l-bgimg {margin-left: -9vw;}
 .l-cards {

@@ -19,7 +19,7 @@
             <span class="h6">私たちが目指す焼酎の世界</span>
         </a>
 
-        <a href="/collections/products">
+        <a href="/products">
             <span lang="en" class="h1 uppercase">PRODUCTS</span>
             <span class="h6">焼酎の未来を切り開くプロダクト</span>
         </a>
@@ -56,7 +56,7 @@
             <div class="menu"> 
                 <ul class="pc"> 
                     <li><a href="/pages/transform-shochu" lang="en">About</a></li>
-                    <li><a href="/collections/products" lang="en">Products</a></li>
+                    <li><a href="/products" lang="en">Products</a></li>
                     <li><a href="/blogs/journal" lang="en">Journal</a></li>
                     <li><a href="/blogs/news" lang="en">News</a></li>
                 </ul> 
@@ -220,9 +220,7 @@ header.is-active .menu .menu-btn .line-3 {transform: translateY(2px) rotateZ(-45
 
 
 @media screen and (max-width: 480px) {
-    #Index .l-card:nth-child(n + 5) {display: none;}
 
-    .l-shop {text-align: center;}
 
     .site-header .main-header .home {order: 2; height: 3rem;}
     .site-header .main-header .menu {order: 1;}
@@ -234,47 +232,6 @@ header.is-active .menu .menu-btn .line-3 {transform: translateY(2px) rotateZ(-45
 
 @media screen and (min-width: 720px) {
     
-main {padding: 0 9vw;}
-
-.l-bgimg {margin-left: -9vw;}
-.l-cards {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem;
-}
-
-.l-cards .l-card img {border-radius: 1.5rem 1.5rem 0 0;}
-
-.l-cards .l-card .image .tag {
-    margin-top: 2rem;
-    margin-left: -.5rem;
-    height: 3.5rem;
-    padding: 0 1.5rem;
-}
-.l-cards .l-card .image .tag::before {
-    top: -.5rem;
-    border-top: .5rem solid transparent;
-    border-right: .5rem solid #4B3E29;
-}
-.l-cards .l-card .info * {text-align: center;}
-
-
-.l-cocktail img {width: 100%;}
-.l-cocktail .tag {margin-top: -5vw;}
-
-.l-section-head {padding-bottom: 5rem;}
-.l-grid-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
-}
-.l-pixel-3 {margin-left: -3px;}
-.l-pixel-2 {margin-left: -2px;}
-.l-pixel-1 {margin-left: -1px;}
-.l-grid-2 {
-    grid-template-columns: 1fr 1fr;
-    gap: 6.5rem;
-}
-
 .site-header {padding: 5rem 9vw 4rem;}
 .site-header .shop, header .home {width: 15rem}
 
@@ -287,8 +244,6 @@ main {padding: 0 9vw;}
     margin: 0 2rem;
 }
 .site-header ul li a {font-size: 1.6rem;}
-
-.site-header.scrolled {padding: 1.5rem 9vw .9rem;}
 
 }
 </style>

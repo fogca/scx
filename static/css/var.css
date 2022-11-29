@@ -23,6 +23,9 @@
 }
 
 @media screen and (min-width: 720px) {
+
+    #iFirst .visual-1 {background-image: url("../image/nagomi-pc.webp");}
+
     #foot-philosophy .l-bgimg {height: 33vw;}
     #products-visual .l-bgimg {height: 55vh;}
     #craftsmanship .l-bgimg {background-image: url("../image/craftsmanship_pc.webp");}

@@ -4,7 +4,7 @@ import Instagram from './Instagram.svelte';
 </script>
 
 <footer> 
-    <img src="../image/scene_1.webp" alt="" class="pc"> 
+    <img src="../image/philosophy_scene.webp" alt="" class="pc"> 
     <div class="main-footer"> 
         <svg xmlns="http://www.w3.org/2000/svg" width="170.41" height="36.103" viewBox="0 0 170.41 36.103"> 
             <g id="Group_193" data-name="Group 193" transform="translate(-1497 -15718.289)"> 
@@ -64,8 +64,8 @@ import Instagram from './Instagram.svelte';
 
 footer {
     width: 100%;
-    margin-top: 10rem;
-    padding: 12rem 6.5vw 5rem;
+    margin-top: 12rem;
+    padding: 10rem 6.5vw 5rem;
     background-color: var(--darkColor);
 }
 footer *, footer path {color: var(--backgroundColor);fill: var(--backgroundColor);}
@@ -109,7 +109,7 @@ footer .bottom .sns a {margin-left: 1.5rem;}
     footer {
         display: flex;
         padding: 0;
-        margin-top: 7.5rem;
+        margin-top: 15rem;
     }
     footer img.pc {
         width: 50vw;

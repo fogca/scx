@@ -22,7 +22,7 @@ import { afterNavigate, beforeNavigate } from '$app/navigation';
   <script>
     (function(d) {
       var config = {
-        kitId: 'pxy4fzb',
+        kitId: 'ybz8pts',
         scriptTimeout: 3000,
         async: true
       },
